@@ -30,12 +30,12 @@ const fromSubmit = (e) => {
 
   return (
     <>
-      <div className='my-5'>
+      <div className='my-5' style={{fontSize:'23px'}} >
         <h1 className='text-center'>Contact Us</h1>
       </div>
       <div className='container contact_div'>
 
-        <div className='row'>
+        <div className='row' style={{fontSize:'34px'}}>
           <div className='col-md-6 col-10 mx-auto'>
 
             <form onSubmit={fromSubmit}>
@@ -55,7 +55,7 @@ const fromSubmit = (e) => {
                 onChange={InputEvent} />
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <label for="exampleFormControlInput1" class="form-label">Email </label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" 
                   name='email'
                   value={data.email}
