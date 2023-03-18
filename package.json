@@ -1,6 +1,6 @@
 {
   "name": "morevideos",
-  "homepage": "https://Ashvani-Gurjar.github.io/ReactWebSite",
+  "homepage": "https://Ashvani-Gurjar.github.io/AGSSite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "node-sass": "^8.0.0"
   }
 }

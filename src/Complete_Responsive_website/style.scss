@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Mulish&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400;8..30,900&display=swap');
 
+$brand-clr: #565387;
+
 *{
      margin: 0;
      padding: 0;
@@ -8,22 +10,23 @@
 }
 .navbar{
      background-color: #fff !important;
+     .navbar-brand{
+          font-size: 1.9rem !important;
+          color: $brand-clr !important
+     }
+     .navbar-nav{
+          margin-left: auto;
+     }
+     .navbar a{
+          font-size: 1.3rem;
+          text-transform: capitalize;
+     
+     }
 }
-.navbar-brand{
-     font-size: 1.9rem !important;
-     color: #565387 !important
-}
-.navbar-nav{
-     margin-left: auto;
-}
-.navbar a{
-     font-size: 1.3rem;
-     text-transform: capitalize;
 
-}
 .menu_active{
      font-weight: bold !important;
-     border-bottom: 1px solid #565387 !important;
+     border-bottom: 1px solid $brand-clr !important;
 }
 .navbar a:hover{
      color: #3498db !important;
